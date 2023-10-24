@@ -1,0 +1,20 @@
+{
+  "name": "bootcamp-batch-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^18.0.6",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "cypress": "^13.3.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "stepDefitintions": "cypress/e2e/**.js"
+  }
+}
