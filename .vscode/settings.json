@@ -1,6 +1,9 @@
 {
-    "cucumberautocomplete.steps": ["cypress/e2e/**/**.js"],
-    "cucumberautocomplete.syncfeatures": "cypress/e2e/**/**.js",
-    "cucumberautocomplete.strictGherkinCompletion": true,
-  }
-  
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.run": "onSave",
+  "cucumberautocomplete.steps": ["cypress/e2e/**/**.js"],
+  "cucumberautocomplete.syncfeatures": "cypress/e2e/**/**.js",
+  "cucumberautocomplete.strictGherkinCompletion": true
+}
